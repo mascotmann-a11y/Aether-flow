@@ -1,0 +1,13 @@
+streamlit
+yfinance
+pandas
+pandas_ta
+textblob
+scikit-learn
+numpy
+scipy
+plotly
+tensorflow-cpu
+beautifulsoup4
+requests
+feedparser
