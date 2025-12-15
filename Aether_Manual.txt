@@ -1,0 +1,30 @@
+AETHER FLOW v1.0 – USER MANUAL
+​1. SETUP INSTRUCTIONS
+​Step A: Installation
+​Double-click installer_aether.py.
+​Wait for the black window to finish installing all brains and tools.
+​Step B: Launching (Standard Mode)
+​Open your Command Prompt (Terminal).
+​Type: streamlit run aether_flow.py
+​The app will open in your browser.
+​Step C: Creating the Executable (.exe)
+​If you want a single file you can click on your desktop:
+​Open Command Prompt in your folder.
+​Copy and paste this exact command:
+pyinstaller --onefile --additional-hooks-dir=./hooks --add-data "aether_flow.py;." --hidden-import streamlit --clean run_aether.py
+​Look in the dist folder for run_aether.exe.
+​2. HOW TO USE THE SYSTEM
+​MODE 1: ACADEMY (Start Here)
+​Daily Wisdom: Learn a new trading rule every day.
+​Global Feed: Read live news to understand the market mood before you trade.
+​MODE 2: TERMINAL (The Main Tool)
+​Select Asset: Choose Stocks, Crypto, or Forex.
+​AI Prediction:
+​ASCENDING 🔼: Market is likely going UP.
+​DESCENDING 🔽: Market is likely going DOWN.
+​Risk Guard: If price drops below this number, SELL immediately.
+​Simulator Tab: You have $100,000 fake money. Use the "Buy" and "Sell" buttons to practice trading the AI signals without risk.
+​MODE 3: OPTIMIZER (Math)
+​Enter a list of coins or stocks (e.g., BTC-USD, ETH-USD).
+​Click RUN SIMULATION.
+​The "Pie Chart" will tell you exactly what percentage of each asset you should buy.
