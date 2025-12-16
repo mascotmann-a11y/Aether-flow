@@ -1,0 +1,20 @@
+# Core Framework & UI
+streamlit
+plotly
+numpy
+pandas
+
+# Market Data & Analysis
+yfinance
+pandas_ta
+
+# Web Scraping & News (Intel Center)
+requests
+beautifulsoup4
+feedparser
+
+# AI & Machine Learning (The Brains)
+tensorflow
+scikit-learn
+prophet
+textblob
